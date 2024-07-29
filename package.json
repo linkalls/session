@@ -1,0 +1,16 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "description": "cookieはクライアントサイドでsessionはサーバーサイド\r ### cookieの問題\r セキュリティ面でクライアントサイドに保存されてるから改ざんできちゃう\r 4096byteが基本だから少ない",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
